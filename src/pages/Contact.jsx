@@ -10,11 +10,13 @@ export default function Contact() {
                 <label htmlFor="email" className="form-label">Email address:</label>
                 <input type="email" className="form-control" id="exampleFormControlInput1" placeholder="joe@smith.com"/>
              </div>
-            <div className="mb-3">
+            <div className="mb-3 pb-3">
                 <label htmlFor="inputText" className="form-label">Message:</label>
-                <textarea className="form-control" id="inputText" rows="3"></textarea>
+                <textarea className="form-control" id="inputText" rows="7"></textarea>
             </div>
-            <button type="button" className="btn btn-primary">Submit</button>
+            <div className="mb-5 pb-3">
+              <button type="button" className="btn btn-primary">Submit</button>
+            </div>
     </div>
     );
   }
