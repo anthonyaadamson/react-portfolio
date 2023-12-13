@@ -1,4 +1,14 @@
-<div>
-    <h1>This is the Project card</h1>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis voluptatum quibusdam consequuntur voluptates at, delectus dolorem culpa natus facere, enim doloremque veritatis illo, ex non minus eveniet obcaecati! Impedit, veritatis?</p>
-</div>
+function Project() {
+    return(
+        <div className="card">
+        <img src="..." className="card-img-top" alt="..."/>
+        <div className="card-body">
+          <h5 className="card-title">Project Title</h5>
+          <p className="card-text">Project description</p>
+        </div>
+      </div>
+    )
+}
+
+export default Project;
+
