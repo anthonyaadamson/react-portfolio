@@ -9,7 +9,7 @@ const projects = [
         name: 'HTML & CSS Portfolio',
         link: 'https://github.com/anthonyaadamson/portfolio-website',
         img: 'project_image.jpg',
-        description: 'A portfolio made with just CSS and HTML'
+        description: 'A portfolio made with CSS and HTML'
     },
     {
         name: 'Password Generator App',

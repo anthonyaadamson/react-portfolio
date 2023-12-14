@@ -45,7 +45,7 @@ export default function Contact() {
 
     return (
       <div>
-        <h1>Contact Me!</h1>\
+        <h1 className="m-5 py-3">Contact Me!</h1>
         <form className="form" onSubmit={handleFormSubmit}>
             <div className="mb-3">
                 <label htmlFor="name" className="form-label">Name:</label>
@@ -65,7 +65,7 @@ export default function Contact() {
         </form>
             {errorMessage && (
         <div>
-          <p className="error-text">{errorMessage}</p>
+          <p className="text-center m-3 py-3">{errorMessage}</p>
         </div>
       )}
     </div>

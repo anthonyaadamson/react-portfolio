@@ -6,7 +6,7 @@ function NavTabs() {
   const currentPage = useLocation().pathname;
 
   return (
-    <nav className='navbar navbar-expand-lg bg-body-tertiary'>
+    <nav className='navbar navbar-expand-lg'>
     <div><h1 className='m-2 p-3'>Anthony Adamson</h1></div>
     <ul className="nav nav-tabs">
       <li className="nav-item">

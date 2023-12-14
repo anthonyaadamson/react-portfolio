@@ -6,7 +6,7 @@ import Project from "../components/Project";
 export default function Portfolio() {
     return (
       <div>
-        <h1>Portfolio</h1>
+        <h1 className="m-5 py-3">Portfolio</h1>
           <div className="row">
           {projects.map((project, index) =>
             <Project key={index} name={project.name} description={project.description} img={project.img} link={project.link} />
