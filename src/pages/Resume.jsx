@@ -32,7 +32,7 @@ export default function Resume() {
         </div>
         <div className="col text-center justify-content-center">
           <a href=""></a>
-          <h5>Download my Resume <a href="www.linkedin.com/in/anthony-adamson-2764ba2a5">here!</a></h5>
+          <h5>Download my Resume <a href="https://www.linkedin.com/in/anthony-adamson-2764ba2a5">here!</a></h5>
         </div>
       </div>
     );
