@@ -2,31 +2,31 @@ const projects = [
     {
         name: 'Social Media Api',
         link: 'https://github.com/anthonyaadamson/social-network-api',
-        img: 'project_image.jpg',
+        img: 'social_media_api_image.png',
         description: 'An API that can be used for a social media app'
     },
     {
         name: 'HTML & CSS Portfolio',
         link: 'https://github.com/anthonyaadamson/portfolio-website',
-        img: 'project_image.jpg',
+        img: 'portfolio_image.PNG',
         description: 'A portfolio made with CSS and HTML'
     },
     {
         name: 'Password Generator App',
         link: 'https://github.com/anthonyaadamson/password-generator',
-        img: 'project_image.jpg',
+        img: 'password_generator_app_image.PNG',
         description: 'An App that generates passwords to your liking.'
     },
     {
         name: 'README generator',
         link: 'https://github.com/anthonyaadamson/README-Generator',
-        img: 'project_image.jpg',
+        img: 'README_Generator_Image.PNG',
         description: 'A console tool to build a README for your project!'
     },
     {
         name: 'Gif Dictionary App',
         link: 'https://github.com/anthonyaadamson/gif-song-request',
-        img: 'project_image.jpg',
+        img: 'gif_dictionary_app_image.PNG',
         description: 'A Dictionary App that shows a related Gif!'
     },
     {
